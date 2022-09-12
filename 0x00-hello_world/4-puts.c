@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *Description
  *print the string in the function
