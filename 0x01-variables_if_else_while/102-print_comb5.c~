@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  *main - Entry point of the program
  *
@@ -21,7 +20,7 @@ int main(void)
 	      putchar((i % 10) + 48);
 	      putchar(' ');
 	      putchar((i2 / 10) + 48);
-	      putchar((i2 % 10) + 48);
+	      puutchar((i2 % 10) + 48);
 	      if (i != 98 || i2 != 99)
 		{
 		  putchar(',');
