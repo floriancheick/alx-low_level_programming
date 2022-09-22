@@ -23,14 +23,14 @@ return (s);
 }
 
 /**
- * check_seperators - Separators of words: space, tabulation, new line,
- * ,, ;, ., !, ?, ", (, ), {, and }
- * @c: an input character
- * Return: 1 if seperator, 0 otherwise
- */
+* check_seperators - Separators of words: space, tabulation, new line,
+* ,, ;, ., !, ?, ", (, ), {, and }
+* @c: an input character
+* Return: 1 if seperator, 0 otherwise
+*/
 int check_seperators(char c)
 {
-  int i = 0;
+int i = 0;
 char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?','"', '(', ')', '{', '}' };
 for (; i < 13; i++)
 {
