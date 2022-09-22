@@ -11,7 +11,7 @@ int base = 10;
 
 while (n > 0)
 {
-base *= 10
+base *= 10;
 n--;
 }
 return (base);
