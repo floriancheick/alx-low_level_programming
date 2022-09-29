@@ -2,8 +2,9 @@
 
 /**
 *_pow_recursion - The function return thw value of x raised to the power of y
+*@x: intger
 *@y: integer
-*return: the functin should -1 or lower than 0
+*Return: the functin should -1 or lower than 0
 */
 
 int _pow_recursion(int x, int y)
