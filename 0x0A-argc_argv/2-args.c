@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 * main - This function print each argument that passed to the program line
 * @argc: argument counter
