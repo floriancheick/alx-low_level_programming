@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
+/**
+* main - This function adds numbers
+* @argc: the number of arguments
+* @argv: argument vector  of pointers to strings
+*
+* Return: 0 if it succeed
+*/
+
+int wildcmp(char *s1, char *s2)
+{
+if (!*s1 && !*s2)
+return (1);
+if (*s1 == *s2)
+return (wildcmp(s1 + 1, s2 + 1));
+if (*s2 == '*' && (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)))
+return (1);
+if (*s2 == '*' && *(s1 + 1) && *s2)
+return (0);
+return (0);
+}

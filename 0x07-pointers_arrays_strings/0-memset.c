@@ -15,6 +15,7 @@ while(n--)
 {
 *s=b;
 s++;
+dest++;
 }
 return (start);
 }
