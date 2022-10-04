@@ -9,6 +9,7 @@
 
 char *_strdup(char *str)
 {
+
 char *cpy;
 int index, len;
 
@@ -23,6 +24,6 @@ for (index = 0; str[index];index++)
 {
 cpy[index] = str[index];
 }
- cpy[len] = '\0';
+cpy[len] = '\0';
 return (cpy);
 }
