@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * *_strcpy - copy the string pointed to by src including the null byte
+ * @dest: destination.
+ * @src: source
+ *
+ * Return: @direction = pointer to dest.
+ */
+char *_strcpy(char *dest, char *src)
+{
+	char *direction = dest;
+	while (*src)
+		*dest++ = *src++;
+	*dest = 0;
+	return (direction);
+}
